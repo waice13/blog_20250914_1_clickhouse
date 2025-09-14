@@ -9,7 +9,7 @@ The project loads F1 race data from the 2024 season (Monaco and Silverstone Gran
 ## Prerequisites
 
 - Docker and Docker Compose
-- Python 3.8+
+- Python 3.13.2
 - pip
 
 ## Setup
@@ -92,10 +92,3 @@ ORDER BY GrandPrix, FastestLap;
 ├── clickhouse_queries.sql  # Analytical SQL queries
 └── cache/                  # FastF1 cache directory (gitignored)
 ```
-
-## Key Insights
-
-- **Monaco GP**: Tight street circuit with max speeds around 274 km/h
-- **Silverstone GP**: High-speed circuit with significantly faster lap times
-- **Fastest Race Lap Monaco**: Hamilton at 74.165 seconds
-- **Telemetry**: Average throttle usage varies from 52% to 79% across drivers
