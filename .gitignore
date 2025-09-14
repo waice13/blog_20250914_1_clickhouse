@@ -1,0 +1,31 @@
+# Cache directories
+cache/
+.cache/
+__pycache__/
+*.pyc
+
+# Claude-specific files
+.claude/
+claude.json
+.claudeignore
+CLAUDE.md
+
+# Docker volumes
+clickhouse_data/
+
+# Environment files
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
